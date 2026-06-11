@@ -124,9 +124,6 @@ def main():
     print("=================== 运行机制 B：隐蔽式对抗变体 ===================")
     run_pipeline([STH_P1, STH_P2, STH_P3], OUTPUT_CSV_STEALTH, texts, "机制B")
 
-    print("🎉 [大功告成] 所有对抗数据集均已安全生成！没有任何程序崩溃。")
-    print("下一步请运行 evaluate_all.py 分别评测这两个生成的 csv 文件即可。")
-
 
 if __name__ == "__main__":
     main()
